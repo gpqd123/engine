@@ -24,7 +24,7 @@ namespace engine {
         
         //AddSystem<CameraSystem>();
         //AddSystem<UISystem>();
-        AddSystem<RendererSystem>(Running);
+        AddSystem<RenderSystem>(Running);
 
 
         // left or right Init
