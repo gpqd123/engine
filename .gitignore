@@ -1,0 +1,11 @@
+.vs/
+Intermediate/
+Bin/
+bin/
+bin-int/
+Build/
+Cache/
+*.spv
+.xmake/
+*.sln
+*.vcxproj

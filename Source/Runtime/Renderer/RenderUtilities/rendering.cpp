@@ -1,9 +1,9 @@
 #include "rendering.hpp"
 
-#include "../labut2/commands.hpp"
-#include "../labut2/synch.hpp"
-#include "../labut2/error.hpp"
-#include "../labut2/to_string.hpp"
+#include "../../Rhi/commands.hpp"
+#include "../../Rhi/synch.hpp"
+#include "../../Rhi/error.hpp"
+#include "../../Rhi/to_string.hpp"
 #include "setup.hpp"	
 
 #include <glm/glm.hpp>

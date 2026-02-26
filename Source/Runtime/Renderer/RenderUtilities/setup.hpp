@@ -1,9 +1,9 @@
 #pragma once
 
 #include <volk/volk.h>
-#include "../labut2/vulkan_window.hpp"
-#include "../labut2/vkobject.hpp"
-#include "../labut2/vkimage.hpp"
+#include "../../Rhi/vulkan_window.hpp"
+#include "../../Rhi/vkobject.hpp"
+#include "../../Rhi/vkimage.hpp"
 
 namespace lut = labut2;
 constexpr std::uint32_t kShadowMapResolution = 200; // 2048 for high quality; also tested with lower values
@@ -11,7 +11,7 @@ namespace cfg
 {
 	// Compiled shader code for the graphics pipeline
 	// See sources in a12/shaders/*. 
-#	define SHADERDIR_ "../../../../Assets/shaders/spirv"
+#	define SHADERDIR_ "Assets/Shaders/spirv/"
 	constexpr char const* kVertShaderPath = SHADERDIR_ "default.vert.spv";
 	constexpr char const* kFragShaderPath = SHADERDIR_ "default.frag.spv";
 	

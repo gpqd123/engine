@@ -1,6 +1,0 @@
-{
-    cmdlines = {
-        [[xmake lua C:\Users\burstlink\xmake\modules\private\utils\statistics.lua]],
-        [[xmake lua C:\Users\burstlink\xmake\actions\build\cleaner.lua]]
-    }
-}

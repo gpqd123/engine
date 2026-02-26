@@ -1,8 +1,8 @@
 #include "setup.hpp"
 
-#include "../labut2/error.hpp"
-#include "../labut2/to_string.hpp"
-#include "../labut2/load.hpp"
+#include "../../Rhi/error.hpp"
+#include "../../Rhi/to_string.hpp"
+#include "../../Rhi/load.hpp"
 
 
 #include <glm/glm.hpp>

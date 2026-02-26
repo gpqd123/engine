@@ -7,7 +7,7 @@
 #include <GLFW/glfw3.h>
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
-#include "../labut2/angle.hpp"
+#include "../../Rhi/angle.hpp"
 
 namespace lut = labut2;
 

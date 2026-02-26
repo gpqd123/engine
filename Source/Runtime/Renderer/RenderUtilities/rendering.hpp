@@ -1,14 +1,14 @@
 #pragma once
 
-#include "../../../../ThirdParty/volk/include/volk/volk.h"
+#include <volk/volk.h>
 #include <vector>
 
 #include "setup.hpp"
 #include "camera.hpp"
 #include "engine_model.hpp"
-#include "../labut2/vkobject.hpp"
-#include "../labut2/vulkan_window.hpp"
-#include "../labut2/vkbuffer.hpp" 
+#include "../../Rhi/vkobject.hpp"
+#include "../../Rhi/vulkan_window.hpp"
+#include "../../Rhi/vkbuffer.hpp" 
 
 namespace lut = labut2;
 
